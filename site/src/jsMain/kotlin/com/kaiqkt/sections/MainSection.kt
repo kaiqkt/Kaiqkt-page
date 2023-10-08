@@ -56,8 +56,7 @@ import org.jetbrains.compose.web.dom.Text
 @Composable
 fun MainSection(onMenuClicked: () -> Unit) {
     Box(
-        modifier = Modifier.id(Section.Home.id)
-            .maxWidth(Constants.SECTION_WIDTH.px),
+        modifier = Modifier.id(Section.Home.id),
         contentAlignment = Alignment.TopCenter
     ) {
         MainBackground()
