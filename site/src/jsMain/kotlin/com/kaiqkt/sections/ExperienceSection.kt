@@ -32,6 +32,7 @@ import org.jetbrains.compose.web.css.px
 fun ExperienceSection() {
     Box(
         modifier = Modifier.id(Section.Experience.id)
+            .fillMaxWidth()
             .padding(topBottom = 100.px),
         contentAlignment = Alignment.Center
     ) {

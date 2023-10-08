@@ -56,7 +56,7 @@ import org.jetbrains.compose.web.dom.Text
 @Composable
 fun MainSection(onMenuClicked: () -> Unit) {
     Box(
-        modifier = Modifier.id(Section.Home.id),
+        modifier = Modifier.id(Section.Home.id).fillMaxWidth(),
         contentAlignment = Alignment.TopCenter
     ) {
         MainBackground()
