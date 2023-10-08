@@ -7,10 +7,9 @@ import com.kaiqkt.models.Section
 import com.kaiqkt.models.Theme
 import com.kaiqkt.styles.MainButtonStyle
 import com.kaiqkt.styles.MainImageStyle
-import com.kaiqkt.util.Constants.SECTION_WIDTH
+import com.kaiqkt.util.Constants
 import com.kaiqkt.util.Resources
 import com.kaiqkt.util.Resources.Image.MAIN_PNG
-import com.varabyte.kobweb.compose.css.Cursor
 import com.varabyte.kobweb.compose.css.FontStyle
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.ObjectFit
@@ -26,7 +25,6 @@ import com.varabyte.kobweb.compose.ui.modifiers.backgroundColor
 import com.varabyte.kobweb.compose.ui.modifiers.border
 import com.varabyte.kobweb.compose.ui.modifiers.borderRadius
 import com.varabyte.kobweb.compose.ui.modifiers.color
-import com.varabyte.kobweb.compose.ui.modifiers.cursor
 import com.varabyte.kobweb.compose.ui.modifiers.fillMaxHeight
 import com.varabyte.kobweb.compose.ui.modifiers.fillMaxSize
 import com.varabyte.kobweb.compose.ui.modifiers.fillMaxWidth
@@ -58,7 +56,8 @@ import org.jetbrains.compose.web.dom.Text
 @Composable
 fun MainSection(onMenuClicked: () -> Unit) {
     Box(
-        modifier = Modifier.id(Section.Home.id).maxWidth(SECTION_WIDTH.px),
+        modifier = Modifier.id(Section.Home.id)
+            .maxWidth(Constants.SECTION_WIDTH.px),
         contentAlignment = Alignment.TopCenter
     ) {
         MainBackground()

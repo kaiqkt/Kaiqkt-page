@@ -5,7 +5,6 @@ import com.kaiqkt.components.SocialBar
 import com.kaiqkt.models.Section
 import com.kaiqkt.models.Theme
 import com.kaiqkt.styles.NavigationItemStyle
-import com.kaiqkt.util.Constants
 import com.kaiqkt.util.Resources
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.TextDecorationLine
@@ -21,7 +20,6 @@ import com.varabyte.kobweb.compose.ui.modifiers.fontFamily
 import com.varabyte.kobweb.compose.ui.modifiers.fontSize
 import com.varabyte.kobweb.compose.ui.modifiers.fontWeight
 import com.varabyte.kobweb.compose.ui.modifiers.margin
-import com.varabyte.kobweb.compose.ui.modifiers.maxWidth
 import com.varabyte.kobweb.compose.ui.modifiers.padding
 import com.varabyte.kobweb.compose.ui.modifiers.size
 import com.varabyte.kobweb.compose.ui.modifiers.textDecorationLine
@@ -38,7 +36,7 @@ fun FooterSection() {
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .maxWidth(Constants.SECTION_WIDTH.px)
+            .fillMaxWidth()
             .padding(topBottom = 100.px)
             .backgroundColor(Theme.LighterGray.rgb),
         contentAlignment = Alignment.Center
