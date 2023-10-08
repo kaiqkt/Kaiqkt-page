@@ -7,7 +7,7 @@ object Resources {
     const val FONT_FAMILY = "Roboto"
 
     const val LOREM_IPSUM_LONG =
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "I'm a Back End professional, passionate about technology, always looking for exciting challenges. I have solid skills in back-end development and drive to drive technology projects to success. I value teamwork, collaboration and continuous learning to grow in the ever-evolving field of technology."
 
     object Image {
         const val BACKGROUND_SVG = "background.svg"
