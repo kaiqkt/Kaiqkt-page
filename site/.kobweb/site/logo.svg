@@ -1,0 +1,19 @@
+<svg width="120" height="100" viewBox="0 0 120 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Letra K -->
+    <text x="10" y="40" font-family="Arial" font-size="32" font-weight="bold" fill="black">K</text>
+
+    <!-- Letra A -->
+    <text x="30" y="40" font-family="Arial" font-size="32" font-weight="bold" fill="black">A</text>
+
+    <!-- Letra I -->
+    <text x="50" y="40" font-family="Arial" font-size="32" font-weight="bold" fill="black">I</text>
+
+    <!-- Letra Q -->
+    <text x="55" y="40" font-family="Arial" font-size="32" font-weight="bold" fill="black">Q</text>
+
+    <!-- Letra K -->
+    <text x="80" y="40" font-family="Arial" font-size="32" font-weight="bold" fill="#765898">K</text>
+
+    <!-- Letra T -->
+    <text x="100" y="40" font-family="Arial" font-size="32" font-weight="bold" fill="#765898">T</text>
+</svg>
